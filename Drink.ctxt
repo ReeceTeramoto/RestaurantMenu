@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Drink()
+comment0.text=\r\n\ Default\ constructor\ for\ Drink\r\n
+comment1.params=name\ description\ price\ freeRefill
+comment1.target=Drink(java.lang.String,\ java.lang.String,\ double,\ boolean)
+comment1.text=\r\n\ Constructor\ for\ Drink\r\n\ \r\n\ @param\ \ \ name,\ description,\ price,\ freeRefill\r\n
+comment2.params=
+comment2.target=boolean\ refillOk()
+comment2.text=\r\n\ refillOk\ is\ a\ method\ that\ returns\ if\ the\ drink\ ordered\ comes\ with\ a\ free\ refill\r\n\ \r\n\ @return\ \ \ true\ if\ drink\ has\ a\ free\ refill,\ false\ otherwise\r\n
+comment3.params=status
+comment3.target=void\ setRefill(boolean)
+comment3.text=\r\n\ \ setRefill\ is\ a\ method\ that\ allows\ a\ user\ to\ change\ the\ status\ of\ free\ refills\ of\ a\ drink\r\n\ \ \r\n\ \ @param\ \ \ status\ (true\ or\ false)\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ toString\ for\ Drink\ -\ This\ method\ returns\ a\ String\ that\ represents\ a\ Drink\ (name,\ price,\ refill\ status,\ description)\r\n
+comment5.params=other
+comment5.target=boolean\ equals(MenuItem)
+comment5.text=\r\n\ This\ method\ returns\ a\ boolean\ that\ is\ true\ if\ another\ menu\ item\ has\ the\ same\ name\r\n\ as\ this\ one.\r\n\ \r\n\ @return\ \ \ true\ if\ two\ names\ are\ the\ same\r\n
+numComments=6

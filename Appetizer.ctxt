@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Appetizer()
+comment0.text=\r\n\ Default\ constructor\ for\ appetizer\r\n
+comment1.params=name\ description\ price\ initServingSize
+comment1.target=Appetizer(java.lang.String,\ java.lang.String,\ double,\ int)
+comment1.text=\r\n\ Constructor\ for\ appetizer\r\n\ \r\n\ @param\ name,\ description,\ price,\ serving\ size\r\n
+comment2.params=
+comment2.target=java.lang.String\ getServingSize()
+comment2.text=\r\n\ Returns\ the\ suggested\ serving\ size\ as\ a\ string\ instead\ of\ the\ defualt\ int\r\n\ \r\n\ @return\ \ serving\ size\r\n
+comment3.params=newServingSize
+comment3.target=void\ setServingSize(int)
+comment3.text=\r\n\ \ Sets\ the\ serving\ size\ to\ a\ new\ value\r\n\ \ \r\n\ \ @param\ \ newServingSize\r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ toString\ for\ Appetizer\r\n\ \r\n\ @return\ \ string\ representation\ of\ Appetizer\ (name,\ price,\ description,\ serving\ size)\r\n
+comment5.params=other
+comment5.target=boolean\ equals(MenuItem)
+comment5.text=\r\n\ This\ method\ returns\ a\ boolean\ that\ is\ true\ if\ another\ menu\ item\ has\ the\ same\ name\r\n\ as\ this\ one.\r\n\ \r\n\ @return\ \ \ true\ if\ two\ names\ are\ the\ same\r\n
+numComments=6

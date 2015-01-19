@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=SpecialtyDrink()
+comment0.text=\r\n\ Default\ constructor\ for\ SpecialtyDrink\r\n
+comment1.params=name\ description\ price\ pairedDish
+comment1.target=SpecialtyDrink(java.lang.String,\ java.lang.String,\ double,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ SpecialtyDrink\r\n\ \r\n\ @param\ \ \ name,\ description,\ price,\ freeRefill,\ pairedDish\r\n
+comment2.params=status
+comment2.target=void\ setRefill(boolean)
+comment2.text=\r\n\ Specialty\ drinks\ do\ not\ get\ refills,\ so\ do\ nothing\ when\ trying\ to\ set\ refill\ \r\n\ \ \ (override\ parent's\ method)\r\n\ \r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ toString\ for\ SpecialtyDrink\ -\ This\ method\ returns\ a\ String\ that\ represents\ a\ \r\n\ \ \ SpecialtyDrink\ (name,\ price,\ no\ refill,\ description)\r\n
+comment4.params=other
+comment4.target=boolean\ equals(MenuItem)
+comment4.text=\r\n\ This\ method\ returns\ a\ boolean\ that\ is\ true\ if\ another\ menu\ item\ has\ the\ same\ name\r\n\ as\ this\ one.\r\n\ \r\n\ @return\ \ \ true\ if\ two\ names\ are\ the\ same\r\n
+numComments=5

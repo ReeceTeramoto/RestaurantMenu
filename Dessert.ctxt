@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Dessert()
+comment0.text=\r\n\ Default\ constructor\ for\ Dessert\r\n
+comment1.params=name\ description\ price\ initCalCount
+comment1.target=Dessert(java.lang.String,\ java.lang.String,\ double,\ int)
+comment1.text=\r\n\ Constructor\ for\ Dessert\r\n\ \r\n\ @param\ \ \ name,\ description,\ price,\ calorie\ count\r\n
+comment2.params=
+comment2.target=int\ getCalCount()
+comment2.text=\r\n\ This\ method\ returns\ the\ calorieCount\r\n\ \r\n\ @return\ \ \ calorie\ count\r\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\r\n\ toString\ for\ Dessert\r\n\ \r\n\ @return\ \ \ string\ representation\ of\ Dessert\ (name,\ price,\ calorie\ count,\ description)\r\n
+comment4.params=otherMenuItem
+comment4.target=boolean\ equals(MenuItem)
+comment4.text=\r\n\ equals\ for\ Dessert\r\n\ returns\ true\ if\ another\ MenuItem\ has\ the\ same\ name\r\n\ @param\ \ \ other\ menu\ item\r\n
+numComments=5

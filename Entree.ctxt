@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Entree()
+comment0.text=\r\n\ Default\ constructor\ for\ Entree\r\n
+comment1.params=name\ description\ price\ initMPrice\ initCat
+comment1.target=Entree(java.lang.String,\ java.lang.String,\ double,\ double,\ int)
+comment1.text=\r\n\ Constructor\ for\ Entree\r\n\ \r\n\ @param\ name,\ description,\ price,\ serving\ size\r\n
+comment2.params=
+comment2.target=double\ getMiniPrice()
+comment2.text=\r\n\ Returns\ the\ mini\ price\r\n\ \r\n\ @return\ \ mini\ price\r\n
+comment3.params=
+comment3.target=int\ getCategory()
+comment3.text=\r\n\ Returns\ the\ category\r\n\ \r\n\ @return\ \ category\r\n
+comment4.params=newMiniPrice
+comment4.target=void\ setMiniPrice(double)
+comment4.text=\r\n\ \ Sets\ the\ mini\ price\ to\ a\ new\ value\r\n\ \ \r\n\ \ @param\ \ newMiniPrice\r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n\ toString\ for\ Entree\r\n\ \r\n\ @return\ \ string\ representation\ of\ Entree\ (name,\ price,\ mini-price,\ description,\ category)\r\n
+comment6.params=other
+comment6.target=boolean\ equals(MenuItem)
+comment6.text=\r\n\ equals\ for\ Entree\r\n\ \r\n\ @param\ \ \ otherEntree\r\n\ @return\ \ true\ if\ two\ entrees\ are\ the\ same\r\n
+numComments=7

@@ -108,7 +108,7 @@ The MATLAB version consists of:
 
 ### MATLAB Version
 
-1. Ensure you have MATLAB installed, or use GNU Octave (free alternative)
+1. Ensure you have MATLAB or GNU Octave installed on your system
 2. Run the application using one of these methods:
    ```matlab
    % Main GUI application (MATLAB only)
@@ -120,16 +120,16 @@ The MATLAB version consists of:
    % Test all classes
    test_menu_items
    ```
-3. For GNU Octave users:
+3. For GNU Octave (free alternative), use:
    ```bash
-   # Test the classes
-   octave --no-gui --eval "test_menu_items"
-   
-   # Run the demo
+   # Command-line demo
    octave --no-gui --eval "demo_matlab_cli"
+   
+   # Test classes
+   octave --no-gui --eval "test_menu_items"
    ```
 
-**Note**: The MATLAB version is compatible with both MATLAB and GNU Octave (free open-source alternative).
+**Note**: The MATLAB version is compatible with both MATLAB and GNU Octave (open-source alternative).
 
 ## Usage Instructions
 
@@ -169,6 +169,7 @@ The MATLAB version consists of:
 - **Design Pattern**: Object-oriented inheritance with handle classes
 - **Dependencies**: MATLAB or GNU Octave
 - **Features**: Polymorphism, method overriding, constants, file I/O
+- **Compatibility**: Works with both MATLAB and GNU Octave (free alternative)
 
 ## Known Issues
 
@@ -188,6 +189,10 @@ The MATLAB version consists of:
 - **Original Java Version**: Matthew Hino and Reece Teramoto (April 14, 2014)
 - **Python Version**: Adapted from the original Java code (2025)
 - **MATLAB Version**: Adapted from the original Java code (2025)
+
+## Getting Started
+
+Choose your preferred programming language and follow the corresponding instructions above. Each version demonstrates the same object-oriented principles while showcasing the unique features of each language. Happy coding! 🚀
 
 ## Getting Started
 

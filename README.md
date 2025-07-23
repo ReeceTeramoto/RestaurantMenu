@@ -192,13 +192,9 @@ The MATLAB version consists of:
 
 ## Getting Started
 
-Choose your preferred programming language and follow the corresponding instructions above. Each version demonstrates the same object-oriented principles while showcasing the unique features of each language. Happy coding! 🚀
-
-## Getting Started
-
 Choose the version that best fits your needs:
 - **Java**: Traditional desktop application with Swing GUI
-- **Python**: Modern cross-platform application with tkinter
+- **Python**: Modern cross-platform application with tkinter  
 - **MATLAB**: Scientific computing environment with object-oriented features
 
-All versions demonstrate the same object-oriented programming concepts and provide equivalent functionality.
+All versions demonstrate the same object-oriented programming concepts and provide equivalent functionality. Happy coding! 🚀

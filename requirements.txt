@@ -1,0 +1,4 @@
+# Restaurant Menu Management System - Python Version
+# No external dependencies required - uses only Python standard library
+# tkinter (included with Python)
+# abc (included with Python)

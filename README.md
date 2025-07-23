@@ -1,6 +1,6 @@
 # Restaurant Menu Management System
 
-A GUI application for creating and managing restaurant menu items with different categories including appetizers, entrees, desserts, and drinks. Available in both Java (Swing) and Python (tkinter) versions.
+A comprehensive GUI application for creating and managing restaurant menu items with different categories including appetizers, entrees, desserts, and drinks. Available in **Java** (Swing), **Python** (tkinter), and **MATLAB** versions, demonstrating object-oriented programming principles across multiple languages.
 
 ## Project Overview
 
@@ -10,9 +10,11 @@ This application allows users to create, manage, and display restaurant menu ite
 
 - **Menu Item Categories**: Support for appetizers, entrees, desserts, and drinks (including specialty drinks)
 - **Item Management**: Add, edit, and display menu items with detailed information
-- **GUI Interface**: User-friendly Swing-based interface for easy interaction
+- **Multi-Language Support**: Available in Java (Swing), Python (tkinter), and MATLAB
+- **GUI Interface**: User-friendly graphical interfaces for easy interaction
 - **Data Persistence**: Save and load menu data from text files
 - **Object-Oriented Design**: Implements inheritance with abstract MenuItem class and specific subclasses
+- **Cross-Platform**: Runs on Windows, macOS, and Linux
 
 ## Project Structure
 
@@ -38,6 +40,36 @@ The Python version consists of:
 - [`test_menu_items.py`](test_menu_items.py) - Test script to verify menu item classes work correctly
 - [`demo_gui.py`](demo_gui.py) - Demo script to launch the GUI application
 - [`requirements.txt`](requirements.txt) - Python dependencies (none required beyond standard library)
+
+### MATLAB Version
+
+The MATLAB version consists of:
+
+- [`MenuItem.m`](MenuItem.m) - Base class for all menu items with handle inheritance
+- [`Appetizer.m`](Appetizer.m) - Appetizer class with serving size constants
+- [`Entree.m`](Entree.m) - Entree class with mini price and category options
+- [`Dessert.m`](Dessert.m) - Dessert class with calorie information
+- [`Drink.m`](Drink.m) - Drink class with refill capability
+- [`SpecialtyDrink.m`](SpecialtyDrink.m) - Specialty drink class with pairing info (no refills)
+- [`RestaurantMenuApp.m`](RestaurantMenuApp.m) - GUI application class with dynamic fields
+- [`test_menu_items.m`](test_menu_items.m) - Test script demonstrating all classes
+- [`demo_matlab_cli.m`](demo_matlab_cli.m) - Command-line demo with polymorphism examples
+- [`run_matlab_app.m`](run_matlab_app.m) - GUI launcher script
+
+### MATLAB Version
+
+The MATLAB version consists of:
+
+- [`MenuItem.m`](MenuItem.m) - Base class for all menu items with handle inheritance
+- [`Appetizer.m`](Appetizer.m) - Appetizer class with serving size constants
+- [`Entree.m`](Entree.m) - Entree class with mini price and category options
+- [`Dessert.m`](Dessert.m) - Dessert class with calorie information
+- [`Drink.m`](Drink.m) - Drink class with refill capability
+- [`SpecialtyDrink.m`](SpecialtyDrink.m) - Specialty drink class with pairing info (no refills)
+- [`RestaurantMenuApp.m`](RestaurantMenuApp.m) - GUI application class with dynamic fields
+- [`test_menu_items.m`](test_menu_items.m) - Test script demonstrating all classes
+- [`demo_matlab_cli.m`](demo_matlab_cli.m) - Command-line demo with polymorphism examples
+- [`run_matlab_app.m`](run_matlab_app.m) - GUI launcher script
 
 ## How to Run
 
@@ -74,6 +106,31 @@ The Python version consists of:
 
 **Note**: The Python version uses only standard library modules (tkinter, abc), so no additional packages need to be installed.
 
+### MATLAB Version
+
+1. Ensure you have MATLAB installed, or use GNU Octave (free alternative)
+2. Run the application using one of these methods:
+   ```matlab
+   % Main GUI application (MATLAB only)
+   run_matlab_app
+   
+   % Command-line demo (works with both MATLAB and Octave)
+   demo_matlab_cli
+   
+   % Test all classes
+   test_menu_items
+   ```
+3. For GNU Octave users:
+   ```bash
+   # Test the classes
+   octave --no-gui --eval "test_menu_items"
+   
+   # Run the demo
+   octave --no-gui --eval "demo_matlab_cli"
+   ```
+
+**Note**: The MATLAB version is compatible with both MATLAB and GNU Octave (free open-source alternative).
+
 ## Usage Instructions
 
 1. **Adding Menu Items**: 
@@ -106,6 +163,13 @@ The Python version consists of:
 - **Design Pattern**: Object-oriented design with inheritance and abstract base classes
 - **Dependencies**: None (uses only Python standard library)
 
+### MATLAB Version
+- **Language**: MATLAB / GNU Octave
+- **GUI Framework**: MATLAB GUI (for desktop version)
+- **Design Pattern**: Object-oriented inheritance with handle classes
+- **Dependencies**: MATLAB or GNU Octave
+- **Features**: Polymorphism, method overriding, constants, file I/O
+
 ## Known Issues
 
 ### Java Version
@@ -115,7 +179,21 @@ The Python version consists of:
 ### Python Version
 - None currently known
 
+### MATLAB Version
+- GUI version requires MATLAB (GNU Octave has limited GUI support)
+- Some advanced MATLAB features may not be available in Octave
+
 ## Authors
 
 - **Original Java Version**: Matthew Hino and Reece Teramoto (April 14, 2014)
 - **Python Version**: Adapted from the original Java code (2025)
+- **MATLAB Version**: Adapted from the original Java code (2025)
+
+## Getting Started
+
+Choose the version that best fits your needs:
+- **Java**: Traditional desktop application with Swing GUI
+- **Python**: Modern cross-platform application with tkinter
+- **MATLAB**: Scientific computing environment with object-oriented features
+
+All versions demonstrate the same object-oriented programming concepts and provide equivalent functionality.

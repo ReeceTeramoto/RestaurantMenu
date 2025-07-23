@@ -1,0 +1,19 @@
+Restaurant Menu - MATLAB Version
+================================
+
+1. Buffalo Wings                  $8.99
+Description: Spicy chicken wings with blue cheese     Serving Size: 3-4
+
+2. Grilled Salmon                 Full: $18.99 Mini: $12.99
+Description: Fresh Atlantic salmon with herbs
+Category: Fish
+
+3. Chocolate Cake                 $6.99 Calories: 450
+Description: Rich chocolate layer cake
+
+4. Coca Cola                      $2.99   Free Refill
+Description: Classic cola beverage
+
+5. Mango Lassi                    $4.99   No Free Refill
+Description: Traditional Indian yogurt drink
+
